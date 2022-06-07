@@ -75,7 +75,7 @@
 
 	<script type="text/javascript">
 		flow = null;
-		state = "start";
+		state = "state0";
 
 		function updateScroll(){
 			var element = document.getElementById("painel-user-bot");
@@ -85,7 +85,7 @@
 		function get_state(){
 			message = document.getElementById("msg-user").value;
 
-			if ((state != "start")||(message != "")){
+			if ((state != "state0")||(message != "")){
 				user_message = "<b>Você: </b>"+message+"<br><br>";
 				text = $('#painel-user-bot').html() + user_message;
 				$('#painel-user-bot').html(""+text);
@@ -111,7 +111,7 @@
 		}
 
 		function get_attendant(){
-			$.getJSON('assets/agenda_chatbot_fsm.json', function(flow_){
+			$.getJSON('assets/chatbot_teste.json', function(flow_){
 				flow = flow_;
 			})
 			.done(function() {
