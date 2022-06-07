@@ -11,7 +11,8 @@
     },
     "state1": {
         "default": {
-            "action": "Estou no estado 1"
+            "action": "Estou no estado 1",
+            "new_state": "state0"
         },
         "0": {
             "action": "Fui para o estado 0",
