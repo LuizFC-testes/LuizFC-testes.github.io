@@ -1,0 +1,13 @@
+{
+    "state0": {
+        "default": {
+            "action": "Estou no estado 0",
+            "new_state": "state1" 
+        }
+    },
+    "state1": {
+        "default": {
+            "action": "Agora, estou no estado 1"
+        }
+    }
+}
