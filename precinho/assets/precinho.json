@@ -41,6 +41,10 @@
         "default": {
             "action": "Desculpe, não encontrei o produto. Gostaria de repetir a busca?<br><b>1.</b> Sim<br><b>2.</b> Não",
             "new_state": "prod_inv"
+        },
+        "sair": {
+            "action": "Espero ter ajudado. Qualquer coisa, é só chamar de novo!",
+            "new_state": "inicio"
         }
     },
     "check_banana": {
@@ -56,7 +60,10 @@
         }
     },
     "prod_inv": {
-        
+        "sair": {
+            "action": "Espero ter ajudado. Qualquer coisa, é só chamar de novo!",
+            "new_state": "inicio"
+        }
     },
 
 
@@ -72,6 +79,10 @@
         "4": {
             "action": "Foram encontrados os seguintes pordutos de <b>Limpeza</b>:<br><b>1.</b> Detergente líquido<br><br>Você também pode voltar ao menu principal digitando <b>Sair</b>",
             "new_state": "limpeza_selec"
+        },
+        "sair": {
+            "action": "Espero ter ajudado. Qualquer coisa, é só chamar de novo!",
+            "new_state": "inicio"
         }
     },
     "dest_selec": {
@@ -109,15 +120,24 @@
         }
     },
     "hiper_bomcusto_cat": {
-
+        "sair": {
+            "action": "Espero ter ajudado. Qualquer coisa, é só chamar de novo!",
+            "new_state": "inicio"
+        }
     },
     "pao_de_sal_cat": {
-
+        "sair": {
+            "action": "Espero ter ajudado. Qualquer coisa, é só chamar de novo!",
+            "new_state": "inicio"
+        }
     },
 
 
     "perfis_lojas": {
-
+        "sair": {
+            "action": "Espero ter ajudado. Qualquer coisa, é só chamar de novo!",
+            "new_state": "inicio"
+        }
     }
 
 }
