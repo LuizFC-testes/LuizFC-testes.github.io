@@ -44,38 +44,53 @@
         }
     },
     "check_banana": {
-
+        "3": {
+            "action": "Espero ter ajudado. Se precisar de ajuda de novo, é só chamar!",
+            "new_state": "inicio"
+        }
     },
     "check_deterg": {
-
+        "3": {
+            "action": "Espero ter ajudado. Se precisar de ajuda de novo, é só chamar!",
+            "new_state": "inicio"
+        }
     },
     "prod_inv": {
-
+        
     },
 
 
     "categorias": {
-        "1": {
+        "2": {
             "action": "Foram encontrados os seguintes produtos de <b>Destaques e promoções</b>:<br><b>1.</b> Banana prata<br><b>2.</b> Detergente líquido<br>Qual deles deseja ver?",
             "new_state": "dest_selec"
         },
-        "2": {
+        "3": {
             "action": "Foram encontrados os seguintes produtos de <b>Hortifruti</b>:<br><b>1.</b> Banana prata<br><br>Você também pode voltar ao menu principal digitando <b>Sair</b>",
             "new_state": "hortif_selec"
         },
-        "3": {
+        "4": {
             "action": "Foram encontrados os seguintes pordutos de <b>Limpeza</b>:<br><b>1.</b> Detergente líquido<br><br>Você também pode voltar ao menu principal digitando <b>Sair</b>",
             "new_state": "limpeza_selec"
         }
     },
     "dest_selec": {
-
+        "Sair": {
+            "action": "Espero ter ajudado. Qualquer coisa, é só chamar de novo!",
+            "new_state": "inicio"
+        }
     },
     "horitf_selec": {
-
+        "Sair": {
+            "action": "Espero ter ajudado. Qualquer coisa, é só chamar de novo!",
+            "new_state": "inicio"
+        }
     },
     "limpeza_selec": {
-
+        "Sair": {
+            "action": "Espero ter ajudado. Qualquer coisa, é só chamar de novo!",
+            "new_state": "inicio"
+        }
     },
 
 
