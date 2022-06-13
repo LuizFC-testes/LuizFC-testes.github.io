@@ -1,0 +1,108 @@
+{
+    "inicio": {
+        "default": {
+            "action": "Olá! Eu sou o Precinho e estou aqui para te ajudar a fazer suas compras no menor custo possível. Posso te ajudar com algumas coisas, como: <br><b>1.</b> Pesquisar por produto<br><b>2.</b> Pesquisar por categoria<br><b>3.</b> Pesquisar por loja<br><b>4.</b> Checar o perfil das lojas.<br><br>É só me enviar o número da opção que precisar!",
+            "new_state": "menu_princ" 
+        }
+    },
+    "menu_princ": {
+        "1": {
+            "action": "Qual produto você procura?",
+            "new_state": "produtos"
+        },
+        "2": {
+            "action": "Você pode olhar em uma dessas categorias:<br><b>1.</b> Mais acessados<br><b>2.</b> Destaques e promoções<br><b>3.</b> Hortifruti<br><b>4.</b> Limpeza",
+            "new_state": "categorias"
+        },
+        "3": {
+            "action": "Você quer ver o catálogo de qual loja?<br><b>1.</b> Hiper Bomcusto<br><b>2.</b> Pão de Sal",
+            "new_state": "catalogos_lojas"
+        },
+        "4": {
+            "action": "Você quer ver o perfil de qual loja?<br><b>1.</b> Hiper Bomcusto<br><b>2.</b> Pão de Sal",
+            "new_state": "perfis_lojas"
+        },
+        "default": {
+            "action": "Não entendi. Poderia repetir? Digite uma das opções disponíveis, por favor.",
+            "new_state": "menu_princ"
+        }
+    },
+
+
+    "produtos": {
+        "banana": {
+            "action": "Encontrei o seguinte produto: <b>'Banana Prata'</b>. É o que procura?<br><b>1.</b> Sim<br><b>2.</b> Não<br><b>3.</b>Retornar ao menu principal",
+            "new_state": "check_banana"
+        },
+        "detergente": {
+            "action": "Encontrei o seguinte produto: <b>'Detergente líquido'</b>. É o que procura?<br><b>1.</b> Sim<br><b>2.</b> Não<br><b>3.</b>Retornar ao menu principal",
+            "new_state": "check_deterg"
+        },
+        "default": {
+            "action": "Desculpe, não encontrei o produto. Gostaria de repetir a busca?<br><b>1.</b> Sim<br><b>2.</b> Não",
+            "new_state": "prod_inv"
+        }
+    },
+    "check_banana": {
+
+    },
+    "check_deterg": {
+
+    },
+    "prod_inv": {
+
+    },
+
+
+    "categorias": {
+        "1": {
+            "action": "Foram encontrados os seguintes produtos de <b>Destaques e promoções</b>:<br><b>1.</b> Banana prata<br><b>2.</b> Detergente líquido<br>Qual deles deseja ver?",
+            "new_state": "dest_selec"
+        },
+        "2": {
+            "action": "Foram encontrados os seguintes produtos de <b>Hortifruti</b>:<br><b>1.</b> Banana prata<br><br>Você também pode voltar ao menu principal digitando <b>Sair</b>",
+            "new_state": "hortif_selec"
+        },
+        "3": {
+            "action": "Foram encontrados os seguintes pordutos de <b>Limpeza</b>:<br><b>1.</b> Detergente líquido<br><br>Você também pode voltar ao menu principal digitando <b>Sair</b>",
+            "new_state": "limpeza_selec"
+        }
+    },
+    "dest_selec": {
+
+    },
+    "horitf_selec": {
+
+    },
+    "limpeza_selec": {
+
+    },
+
+
+    "catalogos_lojas": {
+        "1": {
+            "action": "Foram encontrados os seguintes produtos no catálogo de <b>Hiper Bomcusto</b>:<br><b>1.</b> Banana prata<br><b>2.</b> Detergente Líquido<br><br>Você também pode voltar ao menu principal digitando <b>Sair</b>",
+            "new_state": "hiper_bomcusto_cat"
+        },
+        "2": {
+            "action": "Foram encontrados os seguintes produtos no catálogo de <b>Pão de Sal</b>:<br><b>1.</b> Banana prata<br><b>2.</b> Detergente Líquido<br><br>Você também pode voltar ao menu principal digitando <b>Sair</b>",
+            "new_state": "pao_de_sal_cat"
+        },
+        "Sair": {
+            "action": "Espero ter ajudado. Qualquer coisa, é só chamar de novo!",
+            "new_state": "inicio"
+        }
+    },
+    "hiper_bomcusto_cat": {
+
+    },
+    "pao_de_sal_cat": {
+
+    },
+
+
+    "perfis_lojas": {
+
+    }
+
+}
