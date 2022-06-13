@@ -6,7 +6,7 @@
             "new_state": "state0" 
         },
         "1": {
-            "action": "Fui para o estado 1",
+            "action": "Fui para o estado one",
             "new_state": "state1"
         }
     },
