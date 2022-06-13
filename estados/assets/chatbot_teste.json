@@ -1,5 +1,6 @@
 {
     "state0": {
+        "action": "Comecei no estado 0",
         "default": {
             "action": "Estou no estado 0",
             "new_state": "state0" 
