@@ -11,6 +11,7 @@
         }
     },
     "state1": {
+        "action": "Parei no estado 1",
         "default": {
             "action": "Estou no estado 1",
             "new_state": "state1"
