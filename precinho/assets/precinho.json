@@ -80,7 +80,7 @@
             "new_state": "inicio"
         }
     },
-    "horitf_selec": {
+    "hortif_selec": {
         "sair": {
             "action": "Espero ter ajudado. Qualquer coisa, é só chamar de novo!",
             "new_state": "inicio"
