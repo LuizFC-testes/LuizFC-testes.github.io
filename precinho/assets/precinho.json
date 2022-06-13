@@ -75,19 +75,19 @@
         }
     },
     "dest_selec": {
-        "Sair": {
+        "sair": {
             "action": "Espero ter ajudado. Qualquer coisa, é só chamar de novo!",
             "new_state": "inicio"
         }
     },
     "horitf_selec": {
-        "Sair": {
+        "sair": {
             "action": "Espero ter ajudado. Qualquer coisa, é só chamar de novo!",
             "new_state": "inicio"
         }
     },
     "limpeza_selec": {
-        "Sair": {
+        "sair": {
             "action": "Espero ter ajudado. Qualquer coisa, é só chamar de novo!",
             "new_state": "inicio"
         }
@@ -103,7 +103,7 @@
             "action": "Foram encontrados os seguintes produtos no catálogo de <b>Pão de Sal</b>:<br><b>1.</b> Banana prata<br><b>2.</b> Detergente Líquido<br><br>Você também pode voltar ao menu principal digitando <b>Sair</b>",
             "new_state": "pao_de_sal_cat"
         },
-        "Sair": {
+        "sair": {
             "action": "Espero ter ajudado. Qualquer coisa, é só chamar de novo!",
             "new_state": "inicio"
         }
